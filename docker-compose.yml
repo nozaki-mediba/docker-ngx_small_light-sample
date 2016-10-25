@@ -1,0 +1,10 @@
+version: '2'
+services:
+  nginx:
+    container_name: ngx_small_light-container
+    build:
+      context: ./nginx
+    ports:
+        - 8000:80
+    volumes:
+     - ./nginx/images:/opt/nginx/html/images
