@@ -22,7 +22,7 @@ docker-compose stop
 - リサイズ(nginx内で指定したリサイズ仕様)
     - http://localhost:8000/small_light(p=small)/images/test1.jpg
 - jpeg->webp変換
-    http://localhost:8000/small_light(of=webp)/images/test1.jpg
+    - http://localhost:8000/small_light(of=webp)/images/test1.jpg
 
 
 ## tips
